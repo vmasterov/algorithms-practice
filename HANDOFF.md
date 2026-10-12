@@ -8,6 +8,8 @@
 ## Репозиторий
 - Локальный путь: `~/…/01 - Обучение/00 - projects/algorithms-practice`
 - Язык решений: TypeScript
+- Запуск: `npx tsx problems/NNN-slug/solution.ts` (tsx в devDependencies, алиас `@/*` из tsconfig)
+- Хелпер тестов: `helpers/test.ts` (`test({ checkFunction, data: [{input, output}], normalization? })`)
 
 ### Структура
 ```

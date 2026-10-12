@@ -3,5 +3,6 @@
     "target": "ES2016",
     "module": "ESNext",
     "strict": true,
+    "paths": { "@/*": ["./*"] },
   }
 }

@@ -48,8 +48,16 @@ export function isAnagram(s: string, t: string): boolean {
   return charsCount.size === 0;
 }
 
+export function isAnagram1(s: string, t: string): boolean {
+  if (s.length !== t.length) {
+    return false;
+  }
+
+  return s.split('').sort().join('') === t.split('').sort().join('');
+}
+
 test({
-  checkFunction: isAnagram,
+  checkFunction: isAnagram1,
   data: [
     {
       input: ['anagram', 'nagaram'],

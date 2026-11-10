@@ -49,10 +49,6 @@ export function findMaxAverage1(nums: number[], k: number): number {
   let sum = -Infinity;
   let prevSum = 0;
 
-  // INPUT:          [ [ 0, 1, 9, 9 ], 1 ]
-  // USER ANSWER:    10
-  // CORRECT ANSWER: 9
-
   for (let i = 0; i < nums.length; i++) {
     prevSum += nums[i];
 
